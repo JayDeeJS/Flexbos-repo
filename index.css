@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+.container {
+	width: 70%;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+.popularPosts {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+.popularPost {
+	width: 48%;
+	height: 250px;
+	display: flex;
+	align-items: flex-end;
+}
+.popularPost .body {
+	width: 100%;
+	margin: 20px 15px;
+}
+.post1 {
+	background-image: url('image/image1.jpg');
+	background-size: cover;
+}
+.post2 {
+	background-image: url('image/image2.jpg');
+	background-size: cover;
+}
+.badge {
+	padding: 5px 15px;
+	color: white;
+	border-radius: 5%;
+	text-transform: uppercase;
+}
+.createdDate {
+	color: white;
+	font-size: 13px;
+}
+.title {
+	margin-top: 10px;
+}
+.title h3 {
+	color: white;
+	margin: 0;
+}
+.posts {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.post {
+	width: 32%;
+}
+.post img {
+	width: 100%;
+	height: 200px;
+	box-shadow: 5px 5px 1px 0px royalblue;
+}
+.post .widgets {
+	margin-top: 10px;
+}
+.post .title p {
+	font-size: 18px;
+	font-weight: bold;
+	text-transform: capitalize;
+}
+.recentPosts h2 {
+	margin: 25px 0;
+}
+.bg1 {
+	background-color: orange;
+}
+.bg2 {
+	background-color: purple;
+}
+.bg3 {
+	background-color: green;
+}
+.text-gray {
+	color: gray;
+}
+span {
+	margin-right: 25px;
+}
